@@ -1,0 +1,46 @@
+.nature {
+  .nature-title {
+    background: #fff;
+    h3 {
+      display: inline-block;
+      margin-top: 2rem;
+    }
+    span {
+      display: inline-block;
+      color: #b1b1b2;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      padding: 0 2rem;
+    }
+  }
+
+  // herbs, fungus
+  .herbs,
+  .fungus {
+    background-color: #1e1f23;
+    h3 {
+      color: #fff;
+      padding: 1.5rem 0;
+    }
+    p {
+      color: #7a7a7a;
+      padding: 0 1rem 1rem 1rem;
+      text-align: left;
+    }
+  }
+
+  // animals, lakes
+  .animals,
+  .lakes {
+    background-color: #fff;
+    h3 {
+      color: #000;
+      padding: 1.5rem 0;
+    }
+    p {
+      color: #7a7a7a;
+      padding: 0 1rem 1rem 1rem;
+      text-align: left;
+    }
+  }
+}

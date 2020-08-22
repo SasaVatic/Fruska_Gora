@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30"
+   height="26"
+   viewBox="0 0 30 26"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="twitter.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="9.0769231"
+     inkscape:cx="15"
+     inkscape:cy="13"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M26.9163 6.84129C26.9354 7.10974 26.9354 7.37825 26.9354 7.6467C26.9354 15.8349 20.7488 25.2696 9.44166 25.2696C5.95813 25.2696 2.7221 24.2532 0 22.4891C0.494943 22.5466 0.970785 22.5657 1.48477 22.5657C4.3591 22.5657 7.00509 21.5878 9.11804 19.9195C6.41499 19.8619 4.14974 18.0785 3.36927 15.624C3.75001 15.6815 4.1307 15.7198 4.53049 15.7198C5.0825 15.7198 5.63457 15.6431 6.1485 15.5089C3.33124 14.9336 1.21823 12.4407 1.21823 9.43008V9.3534C2.03673 9.81363 2.98859 10.1013 3.9974 10.1396C2.3413 9.02734 1.25631 7.12892 1.25631 4.98118C1.25631 3.83063 1.56083 2.77595 2.09386 1.85548C5.12053 5.614 9.67006 8.06851 14.7715 8.33702C14.6764 7.87679 14.6193 7.39744 14.6193 6.91802C14.6193 3.50463 17.3604 0.724121 20.7678 0.724121C22.5381 0.724121 24.137 1.47199 25.2602 2.68009C26.6497 2.41163 27.9822 1.89385 29.1625 1.18435C28.7055 2.62259 27.7348 3.83069 26.4594 4.59768C27.6967 4.46352 28.896 4.11827 30 3.63891C29.1626 4.86614 28.1156 5.95913 26.9163 6.84129Z"
+     fill="#C7C7C8"
+     id="path2"
+     style="fill:#000000" />
+</svg>

@@ -1,0 +1,25 @@
+.history {
+  .history-title {
+    background: #fff;
+    h3 {
+      display: inline-block;
+      color: #000;
+      margin-top: 2rem;
+    }
+    span {
+      display: inline-block;
+      color: #b1b1b2;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      padding: 0 2rem;
+    }
+  }
+  .history-text {
+    background-color: #fff;
+    p {
+      color: #7a7a7a;
+      padding: 1rem;
+      text-align: left;
+    }
+  }
+}

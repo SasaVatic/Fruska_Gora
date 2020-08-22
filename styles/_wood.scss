@@ -1,0 +1,22 @@
+.wood-article {
+  background: #1e1f23;
+  .wood-title {
+    h3 {
+      color: #fff;
+      display: inline-block;
+      margin-top: 2rem;
+    }
+    span {
+      display: inline-block;
+      margin-bottom: 2rem;
+      color: #b1b1b2;
+      text-transform: uppercase;
+      padding: 0 2rem;
+    }
+  }
+  .wood-images {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+}
