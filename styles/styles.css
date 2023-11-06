@@ -1,54 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 .main-title {
   height: 70vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   color: #fff;
   letter-spacing: 3px;
   z-index: 1;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .main-title div {
   position: fixed;
 }
-
 .main-title div h2 {
   font-weight: 100;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
-
 .main-title div h2 img {
   width: 40px;
   position: relative;
   top: 7px;
   right: 10px;
 }
-
 .main-title div h1 {
   font-size: 2.5em;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .about {
   background: #fff;
   padding-top: 2rem;
 }
-
 .about .about-title span {
   display: inline-block;
   text-transform: uppercase;
@@ -56,18 +38,15 @@
   margin-bottom: 2rem;
   padding: 0 2rem;
 }
-
 .about .about-text {
   background: #f4f4f4;
   color: #7a7a7a;
   padding: 1rem;
   text-align: left;
 }
-
 .about .about-text p {
   padding-top: 5px;
 }
-
 .about .about-text :first-child {
   padding: 0;
 }
@@ -75,13 +54,11 @@
 .wood-article {
   background: #1e1f23;
 }
-
 .wood-article .wood-title h3 {
   color: #fff;
   display: inline-block;
   margin-top: 2rem;
 }
-
 .wood-article .wood-title span {
   display: inline-block;
   margin-bottom: 2rem;
@@ -89,27 +66,19 @@
   text-transform: uppercase;
   padding: 0 2rem;
 }
-
 .wood-article .wood-images {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 1rem 1rem 2rem 1rem;
 }
 
 .nature .nature-title {
   background: #fff;
 }
-
 .nature .nature-title h3 {
   display: inline-block;
   margin-top: 2rem;
 }
-
 .nature .nature-title span {
   display: inline-block;
   color: #b1b1b2;
@@ -117,36 +86,30 @@
   margin-bottom: 2rem;
   padding: 0 2rem;
 }
-
 .nature .herbs,
 .nature .fungus {
   background-color: #1e1f23;
 }
-
 .nature .herbs h3,
 .nature .fungus h3 {
   color: #fff;
   padding: 1.5rem 0;
 }
-
 .nature .herbs p,
 .nature .fungus p {
   color: #7a7a7a;
   padding: 0 1rem 1rem 1rem;
   text-align: left;
 }
-
 .nature .animals,
 .nature .lakes {
   background-color: #fff;
 }
-
 .nature .animals h3,
 .nature .lakes h3 {
   color: #000;
   padding: 1.5rem 0;
 }
-
 .nature .animals p,
 .nature .lakes p {
   color: #7a7a7a;
@@ -157,13 +120,11 @@
 .tourism .tourism-title {
   background: #1e1f23;
 }
-
 .tourism .tourism-title h3 {
   display: inline-block;
   color: #fff;
   margin-top: 2rem;
 }
-
 .tourism .tourism-title span {
   display: inline-block;
   color: #b1b1b2;
@@ -171,11 +132,9 @@
   margin-bottom: 2rem;
   padding: 0 2rem;
 }
-
 .tourism .tourism-text {
   background-color: #1e1f23;
 }
-
 .tourism .tourism-text p {
   color: #7a7a7a;
   padding: 1rem;
@@ -185,13 +144,11 @@
 .history .history-title {
   background: #fff;
 }
-
 .history .history-title h3 {
   display: inline-block;
   color: #000;
   margin-top: 2rem;
 }
-
 .history .history-title span {
   display: inline-block;
   color: #b1b1b2;
@@ -199,11 +156,9 @@
   margin-bottom: 2rem;
   padding: 0 2rem;
 }
-
 .history .history-text {
   background-color: #fff;
 }
-
 .history .history-text p {
   color: #7a7a7a;
   padding: 1rem;
@@ -213,13 +168,11 @@
 .monasteries .monasteries-title {
   background: #1e1f23;
 }
-
 .monasteries .monasteries-title h3 {
   display: inline-block;
   color: #fff;
   margin-top: 2rem;
 }
-
 .monasteries .monasteries-title span {
   display: inline-block;
   color: #b1b1b2;
@@ -227,11 +180,9 @@
   margin-bottom: 2rem;
   padding: 0 2rem;
 }
-
 .monasteries .monasteries-text {
   background-color: #1e1f23;
 }
-
 .monasteries .monasteries-text p {
   color: #7a7a7a;
   padding: 1rem;
@@ -239,38 +190,23 @@
 }
 
 footer .media-links {
-  -webkit-box-shadow: 0 0 5px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 5px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px 7px rgba(0, 0, 0, 0.5);
   background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 2rem 0;
   padding-bottom: 1rem;
 }
-
 footer .media-links ul {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 2rem 0;
 }
-
 footer .media-links ul li {
   margin: 0 auto;
 }
-
 footer .media-links span {
   color: #000;
 }
@@ -281,7 +217,6 @@ footer .media-links span {
   left: 1rem;
   z-index: 2;
 }
-
 .menu-wrap .toggler {
   margin: 5px;
   position: absolute;
@@ -293,40 +228,27 @@ footer .media-links span {
   height: 50px;
   opacity: 0;
 }
-
 .menu-wrap .toggler:checked + .hamburger > div {
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
-
 .menu-wrap .toggler:checked + .hamburger > div::before, .menu-wrap .toggler:checked + .hamburger > div::after {
   top: 0;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
-
 .menu-wrap .toggler:checked:hover + .hamburger > div {
-  -webkit-transform: rotate(225deg);
-          transform: rotate(225deg);
+  transform: rotate(225deg);
 }
-
 .menu-wrap .toggler:checked ~ .menu {
   visibility: visible;
 }
-
 .menu-wrap .toggler:checked ~ .menu div {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition-duration: 0.4sec;
-          transition-duration: 0.4sec;
+  transform: scale(1);
+  transition-duration: 0.4sec;
 }
-
 .menu-wrap .toggler:checked ~ .menu div div {
   opacity: 1;
-  -webkit-transition: opacity 0.4s ease;
   transition: opacity 0.4s ease;
 }
-
 .menu-wrap .hamburger {
   position: absolute;
   top: 0;
@@ -336,35 +258,20 @@ footer .media-links span {
   z-index: 1;
   padding: 1rem;
   background: rgba(255, 255, 255, 0.4);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .menu-wrap .hamburger div {
   position: relative;
   width: 100%;
   height: 2px;
   background-color: #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transition: all 0.4s ease;
+  align-items: center;
+  justify-content: center;
   transition: all 0.4s ease;
 }
-
 .menu-wrap .hamburger div::before, .menu-wrap .hamburger div::after {
   content: "";
   position: absolute;
@@ -373,12 +280,10 @@ footer .media-links span {
   height: 2px;
   background-color: #000;
 }
-
 .menu-wrap .hamburger div::after {
   top: 10px;
   background-color: #000;
 }
-
 .menu-wrap .menu {
   position: fixed;
   top: 0;
@@ -387,60 +292,38 @@ footer .media-links span {
   height: 100%;
   visibility: hidden;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .menu-wrap .menu div {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   width: 200vw;
   height: 200vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: all 0.4s ease;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
   transition: all 0.4s ease;
 }
-
 .menu-wrap .menu div div {
   text-align: center;
   max-width: 200vw;
   max-height: 200vh;
   opacity: 0;
-  -webkit-transition: opacity 0.4sec ease;
   transition: opacity 0.4sec ease;
 }
-
 .menu-wrap .menu div div ul li {
   font-size: 2rem;
   list-style: none;
   color: #fff;
   padding: 1rem;
 }
-
 .menu-wrap .menu div div ul li a {
   color: inherit;
   text-decoration: none;
-  -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
 }
 
@@ -449,8 +332,7 @@ html {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -466,13 +348,8 @@ body {
 
 .container {
   max-width: 1280px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 0 auto;
   text-align: center;
   padding: 0 1rem;
@@ -483,8 +360,7 @@ img {
 }
 
 main {
-  -webkit-box-shadow: 0 0 5px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 5px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px 7px rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 
@@ -511,7 +387,6 @@ h3 {
     font-size: 4rem;
   }
 }
-
 @media screen and (min-width: 800px) {
   .main-title div h2 {
     font-size: 2.3rem;
@@ -524,14 +399,12 @@ h3 {
     font-size: 4.3rem;
   }
 }
-
 @media screen and (min-width: 1024px) {
   html {
     font-size: 20px;
   }
   main {
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .main-title {
     height: 100vh;
@@ -551,16 +424,11 @@ h3 {
   .tourism,
   .history,
   .monasteries {
-    -webkit-box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.4);
-            box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.4);
   }
   .wood-article .wood-images {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .wood-article .wood-images :nth-child(1) {
     width: 50%;
@@ -581,8 +449,6 @@ h3 {
   .nature .animals,
   .nature .fungus,
   .nature .lakes {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .nature .herbs img,
@@ -590,31 +456,23 @@ h3 {
   .nature .fungus img,
   .nature .lakes img {
     width: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .nature .herbs div,
   .nature .animals div,
   .nature .fungus div,
   .nature .lakes div {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     padding: 1em;
+    width: 50%;
   }
   .nature .animals img,
   .nature .lakes img {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    order: 2;
   }
   .tourism,
   .monasteries {
@@ -624,8 +482,6 @@ h3 {
   .tourism .monasteries-text,
   .monasteries .tourism-text,
   .monasteries .monasteries-text {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .tourism .tourism-text img,
@@ -639,60 +495,34 @@ h3 {
   .monasteries .tourism-text p,
   .monasteries .monasteries-text p {
     background: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .history {
     margin-top: 2em;
   }
   .history .history-text {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .history .history-text img {
     width: 50%;
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    order: 2;
   }
   .history .history-text p {
     background: #1e1f23;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   footer .media-links {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     padding: 0;
   }
   footer .media-links ul {
     width: 50%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

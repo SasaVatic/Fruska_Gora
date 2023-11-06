@@ -154,6 +154,7 @@ h3 {
       display: flex;
       img {
         width: 50%;
+        object-fit: cover;
       }
       div {
         display: flex;
@@ -161,6 +162,7 @@ h3 {
         justify-content: space-evenly;
         align-items: center;
         padding: 1em;
+        width: 50%;
       }
     }
     .animals,
