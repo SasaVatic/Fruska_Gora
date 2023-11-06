@@ -181,12 +181,14 @@ h3 {
       display: flex;
       img {
         width: 50%;
+        object-fit: cover;
       }
       p {
         background: #fff;
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 50%;
       }
     }
   }
@@ -198,12 +200,14 @@ h3 {
       img {
         width: 50%;
         order: 2;
+        object-fit: cover;
       }
       p {
         background: #1e1f23;
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 50%;
       }
     }
   }

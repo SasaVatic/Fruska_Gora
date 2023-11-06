@@ -489,6 +489,8 @@ h3 {
   .monasteries .tourism-text img,
   .monasteries .monasteries-text img {
     width: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .tourism .tourism-text p,
   .tourism .monasteries-text p,
@@ -498,6 +500,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
   }
   .history {
     margin-top: 2em;
@@ -508,12 +511,15 @@ h3 {
   .history .history-text img {
     width: 50%;
     order: 2;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .history .history-text p {
     background: #1e1f23;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
   }
   footer .media-links {
     flex-direction: row;
